@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Eye Diagnostics</title>
+    <link rel="shortcut icon" href="logo-img.png" type="image/x-icon">
+    <!--***************************************** CSS File Link ********************************************-->
+    <link rel="stylesheet" href="style.css" />
+    <!--***************************************** Media queries File Link ********************************************-->
+    <link rel="stylesheet" href="media-queries.css">
+</head>
+
+<body>
+    <!--***************************************** Navbar ***************************************************-->
+    <header>
+        <!-- Left side Logo -->
+        <div class="nav container flex">
+            <div class="left-logo report-header-left flex">
+                <img src="logo-img.png" alt="Eye Clinic Image" class="left-logo-img" />
+                <h2 class="left-logo-heading">A Eye Diagnostics</h2>
+            </div>
+            <!-- right side Logo -->
+            <div class="right-logo flex">
+                <h3 class="right-logo-heading">EyeArt</h3>
+                <p class="right-logo-text">Diabetic Retinopathy Analysis Report</p>
+            </div>
+        </div>
+    </header>
+
+    <!--***************************************** Main Section ***************************************************-->
+    <section class="report-section flex container">
+
+        <div class="info-container container flex">
+            <div class="patient-info pi flex">
+                <div class="sub-heading heading-1 heading-4 flex">
+                    <h3 class="patient-info-h1 heading">Patient Information</h3>
+                </div>
+
+
+                <!--****************************** Patient Info *************************************************8-->
+                <div class="patient-info-area flex">
+                    <div class="question flex">
+                        <span class="bold">Patient ID: </span>
+                        <span class="bold">Patient Name: </span>
+                        <span class="bold">Date Of Birth: </span>
+                        <span class="bold">Gender: </span>
+                        <span class="bold">Encounter ID: </span>
+                        <!-- New Entry -->
+                        <span class="bold">New Entry 01: </span>
+                    </div>
+
+                    <div class="answer flex">
+                        <span >01</span>
+                        <span >ABCD</span>
+                        <span >03/11/2003</span>
+                        <span >Female</span>
+                        <span >0e4</span>
+                        <!-- New Entry -->
+                        <span >New Entry answer</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="general-info gi flex">
+                <div class="sub-heading heading-2 heading-3 heading flex">
+                    <h3 class="general-info-h1">General Information</h3>
+                </div>
+
+                 <!--****************************** General Info *************************************************8-->
+                <div class="general-info-area flex">
+                    <div class="question flex">
+                        <span class="bold">Patient ID: </span>
+                        <span class="bold">Patient Name: </span>
+                        <span class="bold">Date Of Birth: </span>
+                        <span class="bold">Gender: </span>
+                        <span class="bold">Encounter ID: </span>
+                        <!-- New Entry -->
+                        <span class="bold">New Entry 01: </span>
+                    </div>
+
+                    <div class="answer flex">
+                        <span>01</span>
+                        <span>ABCD</span>
+                        <span>03/11/2003</span>
+                        <span>Female</span>
+                        <span>0e4</span>
+                        <!-- New Entry -->
+                        <span>New Entry answer</span>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+ <!--****************************** Result summary *************************************************8-->
+        <div class="result-summary flex ">
+            <div class="result-summary-heading sub-heading">
+                <h3>EyeArt Diabetic Retinopathy (DR) Exam Result Summary</h3>
+            </div>
+            <div class="result-summary-text green-text">Negative for more than mild DR in both eyes.Retest in 12 months.
+            </div>
+        </div>
+
+        <div class="info-container result-summary-info flex">
+            <div class="patient-info right-eye-patient-info flex">
+                <div class="sub-heading heading-1 right-eye-result-heading flex">
+                    <h3 class="patient-info-h1 heading-1 first-heading ">Right Eye Results</h3>
+                </div>
+
+                <div class="patient-info-area flex">
+                    <div class="question flex">
+                        <span class="bold">mtmDR Result: </span>
+                        <span class="bold">vtDR Result: </span>
+                        <!-- New Entry -->
+                        <span class="bold">New Result: </span>
+                    </div>
+
+                    <div class="answer green-text flex">
+                        <span>Negative for more than mild DR</span>
+                        <span>Negative for vision-threatening DR</span>
+                        <!-- New Entry -->
+                        <span>Negative</span>
+                    </div>
+
+                </div>
+            </div>
+
+
+             <!--****************************** Eye Results *************************************************8-->
+            <div class="general-info left-eye-patient-info flex">
+                <div class="sub-heading heading-2 left-eye-result-h2 flex">
+                    <h3 class="general-info-h1">Left Eye Results</h3>
+                </div>
+
+                <div class="general-info-area flex">
+                    <div class="question flex">
+                        <span class="bold">mtmDR Result: </span>
+                        <span class="bold">vtDR Result: </span>
+                        <!-- New Entry -->
+                        <span class="bold">New Result: </span>
+                    </div>
+
+                    <div class="answer green-text flex">
+                        <span>Negative for more than mild DR</span>
+                        <span>Negative for vision threatening DR</span>
+                        <!-- New Entry -->
+                        <span>Negative</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+ <!--****************************** eye Images *************************************************8-->
+        <div class="eyes-images flex">
+            <div class="right-eye-result">
+                <div class="img-1">
+                    <img src="eye-clinic-1.jpg" alt="" id="right-eye-result">
+                </div>
+                <p class="report-img-caption">Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="left-eye-result">
+                <div class="img-2">
+                    <img src="eye-clinic-2 (1).jpg" alt="">
+                </div>
+                <p class="report-img-caption">Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+
+         <!--****************************** Notes *************************************************8-->
+        <p class="note">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi laborum quis reiciendis tempora
+            asperiores commodi illum quas aspernatur consequuntur vitae. Eum tempore sit similique at.</p>
+
+
+        <div class="sub-heading note-heading">
+            <h3>Note</h3>
+        </div>
+        <p class="note n2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt molestiae illum assumenda
+            magni ducimus, repudiandae maiores aperiam possimus voluptatum, adipisci accusantium! Fugit minima cum
+            veniam?</p>
+
+
+<!--************************* Additional Print and Done Buttons ***************************************************-->
+        <div class="flex cta-btns">
+            <a href="models-page.html"><button class="model-button done-btn" type="button">Done </button></a>
+            <button class="print-btn" type="button">Print</button>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
